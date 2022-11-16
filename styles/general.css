@@ -33,6 +33,18 @@
     padding: 12px 75px;
 }
 
+/* --------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-------------------------------------Content-Element-------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+.content-element{
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    font-size: 20px;
+    color:black"
+}
+
+
 /* -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 -------------------------------------footer-starts-from-here-----------------------------------------
@@ -106,4 +118,110 @@ div{
 /* constructed stylesheet */
 .footer__row {
     display: grid;
+}
+
+
+
+/* ---------------------------------Privacy------------------------------ */
+/* .privacy-element{
+    display: block;
+    position: sticky;
+    border-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    background-color: black;
+}
+.privacy-element .link-privacy{
+    margin-left: 48%;
+    margin-right: 48%;
+    padding: 10px;
+} */
+.InfinityFooter-footerInfinity-X7B {
+    -webkit-box-align: center;
+    align-items: center;
+    /* -webkit-backface-visibility: hidden; */
+    backface-visibility: hidden;
+    background-color: white;
+    border-top: 1px solid white;
+    bottom: 0;
+    /* display: -webkit-box; */
+    display:flex ;
+    height: 39px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    /* margin-top: 100px; */
+}
+.privacy-element{
+    justify-content: center;
+    word-spacing: 5px;
+    margin-left: 0%;
+}
+.privacy ul{
+    overflow: auto;
+}
+.privacy-base{
+    height: 39px;
+    max-height: 100%;
+    width: 300px;
+    max-width: 100%;
+
+}
+.privacy-base li{
+    float:left;
+    list-style: none; 
+    justify-content: space-evenly space-around;
+    margin-right: 17px;
+}
+.privacy-base li a{
+    text-decoration:none;
+    color: grey;
+    justify-self: center;
+}
+/* .base-logo{
+    font-size: 25px;
+    color: grey;
+    font-weight: 900;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid;
+    margin-left: 65%;
+} */
+.base-link-privacy{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: dimgray;
+    margin-right: 10px;
+}
+.base-link-terms{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: dimgray;
+    margin-right: 10px;
+}
+.base-link-disclaimer{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: dimgray;
+    margin-right: 10px;
+}
+.InfinityFooter-footerInfinity-X7B .base-logo{
+    float: right;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    margin-right: 25px;
+    position: fixed;
+    right: 0;
+    font-size: 25px;
+    color: grey;
+    font-weight: 900;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
 }
