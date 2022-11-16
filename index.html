@@ -11,6 +11,233 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles\general.css">
+        <style>.navbar{
+            background-color: black;
+            border-radius: 30px;
+        }
+        .navbar li #logo{
+            font-weight: 900;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            font-size: 18px;
+            letter-spacing: 1.5px;
+            font-family: 'Noto Sans Lao Looped', sans-serif;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 7px 38px;
+            width: 129px;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        
+        /* --------------------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------------------
+        -------------------------------------Content-Element-------------------------------------------------
+        -----------------------------------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------------------------- */
+        .content-element{
+            font-family: 'Noto Sans Lao Looped', sans-serif;
+            font-size: 20px;
+            color:black"
+        }
+        
+        
+        /* -----------------------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------------------
+        -------------------------------------footer-starts-from-here-----------------------------------------
+        -----------------------------------------------------------------------------------------------------
+        ----------------------------------------------------------------------------------------------------- */
+        div{
+            display: block;
+        }
+        #footer-section{
+            border: 1px solid;
+            background-color: black;
+        }
+        #main-footer{
+                background-color: var(--pharos-color-marble-gray-10);
+                color: var(--pharos-color-white);
+                padding: var(--pharos-spacing-2-x) var(--pharos-spacing-1-x);
+                display: grid;
+                grid-template-areas: ". main .";
+                grid-template-columns: 1fr 8fr 1fr;
+                align-content: space-around;
+        }
+        .footer-content{
+            grid-area: main / main / main / main;
+            max-width: 70rem;
+            justify-self: center;
+        }
+        .footer__row--top {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+        
+        /* @media only screen and (max-width: 570px) */
+        /* constructed stylesheet */
+        .footer__row--main {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+        }
+        
+        /* @media (max-width: 1024px) */
+        /* constructed stylesheet */
+        .footer__row--main {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            column-gap: 0px;
+        }
+        /* constructed stylesheet */
+        .footer__row--main {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1.25fr 1.75fr;
+            grid-template-rows: auto;
+            column-gap: var(--pharos-spacing-one-half-x);
+        }
+        /* constructed stylesheet */
+        .footer__row {
+            display: grid;
+        }
+        .footer-p1 ul{
+            display: grid;
+            overflow: auto;
+            justify-content: space-evenly;
+        }
+        .footer-p1 li{
+            margin: 4px 15px;
+        }
+        .footer-p1 li a{
+            text-decoration: none;
+            color: white;
+            list-style: none;
+            font-size: 20px;
+        }
+        
+        /* constructed stylesheet */
+        .footer__row {
+            display: grid;
+        }
+        
+        
+        
+        /* ---------------------------------Privacy------------------------------ */
+        /* .privacy-element{
+            display: block;
+            position: sticky;
+            border-color: black;
+            max-width: 100%;
+            max-height: 100%;
+            height: 50px;
+            background-color: black;
+        }
+        .privacy-element .link-privacy{
+            margin-left: 48%;
+            margin-right: 48%;
+            padding: 10px;
+        } */
+        .InfinityFooter-footerInfinity-X7B {
+            -webkit-box-align: center;
+            align-items: center;
+            /* -webkit-backface-visibility: hidden; */
+            backface-visibility: hidden;
+            background-color: white;
+            border-top: 1px solid white;
+            bottom: 0;
+            /* display: -webkit-box; */
+            display:flex ;
+            height: 39px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+            /* margin-top: 100px; */
+        }
+        .privacy-element{
+            justify-content: center;
+            word-spacing: 5px;
+            margin-left: 0%;
+        }
+        .privacy ul{
+            overflow: auto;
+        }
+        .privacy-base{
+            height: 39px;
+            max-height: 100%;
+            width: 300px;
+            max-width: 100%;
+        
+        }
+        .privacy-base li{
+            float:left;
+            list-style: none; 
+            justify-content: space-evenly space-around;
+            margin-right: 17px;
+        }
+        .privacy-base li a{
+            text-decoration:none;
+            color: grey;
+            justify-self: center;
+        }
+        /* .base-logo{
+            font-size: 25px;
+            color: grey;
+            font-weight: 900;
+            font-family: 'Noto Sans Lao Looped', sans-serif;
+            width: 100%;
+            max-width: 100%;
+            border: 1px solid;
+            margin-left: 65%;
+        } */
+        .base-link-privacy{
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: bold;
+            color: dimgray;
+            margin-right: 10px;
+        }
+        .base-link-terms{
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: bold;
+            color: dimgray;
+            margin-right: 10px;
+        }
+        .base-link-disclaimer{
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: bold;
+            color: dimgray;
+            margin-right: 10px;
+        }
+        .InfinityFooter-footerInfinity-X7B .base-logo{
+            float: right;
+            -webkit-box-align: center;
+            align-items: center;
+            display: -webkit-box;
+            display: flex;
+            margin-right: 25px;
+            position: fixed;
+            right: 0;
+            font-size: 25px;
+            color: grey;
+            font-weight: 900;
+            font-family: 'Noto Sans Lao Looped', sans-serif;
+        }</style>
     </head>
     <body>
         <!-- [if lt IE 7]>
